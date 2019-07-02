@@ -1,14 +1,14 @@
 body {
-
-  background: url(pizza-baked-chesse-spicy-7t.jpg);
-
- height: 1000px; /* You must set a specified height */
- background-position: center; /* Center the image */
- background-repeat: no-repeat; /* Do not repeat the image */
- background-size:   100% 100%; /* Resize the background image to cover the entire container */
-
-
+  margin: 0;
+  background: linear-gradient(
+      315deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("toko-pizza.png") center / cover no-repeat fixed;
+  background-attachment: fixed;
 }
+
 ul {
   list-style-type: none;
   margin: 0;

@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   background: linear-gradient(
@@ -33,16 +38,62 @@ li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 
-.P h1 {
-  font-family: Ribeye Marrow;
+.P {
+   font-family: 'Ribeye Marrow', cursive;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 67px;
+   color: #FFFFFF;
+    text-align: center;
+}
+
+.main_content {
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   width: 1100px;
+}
+
+.Title {
+  font-family: 'Righteous', cursive;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 144px;
+     line-height: 110px;
+}
+
+.sub_title {
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  margin-top: 5px;
+}
+
+.main_button {
+  background: #983B51;
+  border-radius: 20px;
+  width: 422px;
+  height: 74px;
+  outline: none;
+  border: none;
+  font-family: Righteous;
   font-style: normal;
   font-weight: normal;
-  font-size: 72px;
+  font-size: 36px;
   color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
   position: absolute;
+<<<<<<< HEAD
     width: 100px;
     height: 50px;
     top: 50%;
     left: 50%;
     transform:
+=======
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 50px;
+>>>>>>> origin
 }
